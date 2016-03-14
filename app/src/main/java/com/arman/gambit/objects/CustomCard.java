@@ -47,7 +47,7 @@ public class CustomCard {
     public static List<CustomCard> generateCards() {
         List<CustomCard> cards = new ArrayList<>();
         cards.add(new CustomCard("A title for card", R.drawable.canada, android.R.drawable.ic_lock_idle_lock));
-        cards.add(new CustomCard("Another title for card", R.drawable.germany, android.R.drawable.stat_sys_speakerphone));
+        cards.add(new CustomCard("This item has too very-very long and ugly title", R.drawable.germany, android.R.drawable.stat_sys_speakerphone));
         cards.add(new CustomCard("Another long title for the third card", R.drawable.sweden, android.R.drawable.btn_dialog));
         return cards;
     }

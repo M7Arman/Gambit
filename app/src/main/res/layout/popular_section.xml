@@ -23,14 +23,7 @@
             android:id="@+id/popular_events"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:minHeight="100dp"/>
-
-        <!--<include layout="@layout/card_view"-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:layout_marginLeft="20dp"-->
-            <!--android:layout_marginRight="20dp"></include>-->
-
+            android:minHeight="300dp"/>
 
         <!--<android.support.v7.widget.RecyclerView-->
             <!--android:id="@+id/popular_places"-->

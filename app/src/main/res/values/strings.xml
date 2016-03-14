@@ -5,4 +5,6 @@
     <string name="city_info_button_text">City Info</string>
     <string name="places_button_text">Places</string>
     <string name="events_button_text">Events</string>
+    <string name="card_label">Explore</string>
+    <string name="card_with_no_title">Untitled</string>
 </resources>
