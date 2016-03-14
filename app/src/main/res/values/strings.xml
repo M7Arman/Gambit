@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Gambit</string>
+    <string name="popular_title">Popular</string>
+    <string name="map_button_text">MAP</string>
+    <string name="city_info_button_text">City Info</string>
+    <string name="places_button_text">Places</string>
+    <string name="events_button_text">Events</string>
+</resources>

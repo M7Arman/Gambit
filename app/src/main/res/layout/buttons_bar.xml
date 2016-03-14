@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/buttonsBarBackgroundColor"
+    android:elevation="8dp">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp">
+
+            <Button
+                style="@style/CustomButton"
+                android:text="@string/map_button_text"
+                android:id="@+id/map_button"
+                android:layout_marginLeft="40dp"
+                android:drawableLeft="@drawable/ic_map"/>
+
+            <Button
+                style="@style/CustomButton"
+                android:text="@string/places_button_text"
+                android:id="@+id/places_button"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="60dp"
+                android:drawableLeft="@drawable/ic_places"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp">
+
+            <Button
+                style="@style/CustomButton"
+                android:text="@string/city_info_button_text"
+                android:id="@+id/city_info_button"
+                android:layout_marginLeft="40dp"
+                android:drawableLeft="@drawable/ic_city_info"/>
+
+            <Button
+                style="@style/CustomButton"
+                android:text="@string/events_button_text"
+                android:id="@+id/events_button"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="40dp"
+                android:drawableLeft="@drawable/ic_events"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
